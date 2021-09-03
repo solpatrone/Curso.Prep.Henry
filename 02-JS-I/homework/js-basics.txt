@@ -1,0 +1,44 @@
+VARIABLES
+Una variable es un lugar dentro de la computadora donde podemos guardar diferentes cosas que vamos a usar
+en otro momento. Por ejemple es como un cajón de ropa donde nosotros ocupamos espacio para poner nuestras remeras
+y luego cuando queremos usarlas vamos a buscarlas ahí. 
+En JS tenemos tres palabras clave para llamar a una variable: var, let y const. Después de estas se pone el 
+nombre de la variable y un igual para darle un valor. Por ejemplo, siguiendo con el ejemplo del cajón, supongamos
+que tengo una remera roja dentro del mismo, esto en JS se veria como: 
+                                                                        var remera = "roja"  
+
+
+STRINGS
+Las variables pueden ser diferentes tipos de datos: números, booleanos y strings. Estos últimos son texto que
+siempre va entre comillas. Por ejemplo: "Hola" o 'Mundo'.
+Estos textos tiene un largo o una cantidad de caracteres, ya sea letras, signos o espacios, que se puede averiguar
+usando el método .length. Por ejemplo el largo de "Hola mundo" sería de 10 caracteres ya que tenemos una palabras
+de 4 letras, un espacio y otra palabra de 5 letras. 
+
+
+FUNCIONES 
+Las funciones son objetos dentro de cualquier lenguaje de programación que nos permiten trabajar con las variables
+ya sea modificandolas o mostrandolas. 
+Para crear una función tenemos varias opciones, la más común es: con la palabra clave "function" seguido del 
+nombre de la función, sus argumentos entre parentesis y llaves dentro de las cuales se van a realizar diferentes 
+funciones. Es importante que dentro de las llaves se utilice la palabra clave "return" que va a guardar el valor
+de nuestra funcion para poder usarlo fuera de la misma si asi lo queremos. 
+Se vería así: function nombreDeMiFuncion (argumentos) {acciones}
+
+Los argumentos pueden ser cero, uno o más de uno. se escriben todo junto y en minusculas y se separan por comas. 
+Estos argumentos luego van a ser usados dentro la funcion pero no se podra acceder a los mismos fuera. (yo no
+voy a poder ver el valor de mi argumento fuera por un tema de alcance o scope)
+
+
+IF 
+Si nosotros queremos que nuestra función chequee si algo es verdadero o falso podemos hacerlo utilizando un IF(o
+un "si condicional") seguido de una condicion entre parentesis y obviamente un return. 
+Se veria asi: if(1>2){return true}
+Es como decir: "si un 1 es mayor que dos poner verdadero"
+
+
+
+VALORES BOOLEANOS
+Como dijimos antes los valores booleanos son tipos de variables. 
+Estos pueden tener el valor VERDADERO(TRUE) que equivale a un 1 o FALSO(FALSE) que equivale a 0 
+en lenguaje computadora.
