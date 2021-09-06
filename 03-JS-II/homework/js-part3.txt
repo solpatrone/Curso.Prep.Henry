@@ -1,0 +1,16 @@
+FOR 
+Este es un bucle parecido al if, pero que tiene dos partes más aparte de la condición. El bucle for va a
+contener una variable donde va a comenzar a realizar sus acciones, una condición y un contador que va a incre-
+mentar o decrementar su valor en cada vuelta y por ultimo la/s acciones-
+sintaxis: for (variable; condicion; contador){acciones}
+
+Por ejempl: for (let i=0; i<10; i++){
+    console.log (i)
+} esto va a mostrarlos los numeros del 0 al 9(ya que pedimos que se muestre i en consola mientras sea menor a 10)
+
+
+OPERADORES LOGICOS 
+&& -> singnifica "y". Solo devulve true (verdadero) si ambas expresiones son verdaderas.
+|| -> singnifica "o" y devulve true (verdadero) si una de las dos expersiones es verdadera.
+! -> singnifica "no" es el operador de negación. Se escribe por delante de la expersion a comparar para negarla.
+Por ejemplo: (1!==2) muestra que 1 es difrerente a 2 o (!true) significa lo contrario de true, es decir, false.
