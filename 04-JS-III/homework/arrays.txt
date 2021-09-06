@@ -1,0 +1,14 @@
+ARRAYS 
+Los arrays son matrices o conjuntos de datos que puede ser del mismo o diferente tipo. Se escriben entre corche
+tes y separados por comas. 
+Sintaxis-> array=[elemento1, elemento2, elemento...]
+Para acceder a estos elementos se usa la sintaxis -> array[posicion] La posocion de los elemntos de un array 
+siempre arranca desde el cero. 
+Se puede conocer la cantidad de elemntos de un array se usa el metodo .length. Y para acceder al ultimo elemento
+de un array (si no conocemos la cantidad de elemntos) se puede hacer-> array[array.length-1]
+Otros metodos para modificar los arrays son:
+-Para cambiar un elemento en especifico -> array[posicion] = nuevoElemnto
+-Para eliminar el primer elemento -> array.shift()
+-Para agregar un elemento al pprio -> array.unshift(elementoNuevo)
+-Para agregar un elemento al final-> array.pop(nuevoElemento)
+-Para eliminar el ultimo elemento -> array.push()
