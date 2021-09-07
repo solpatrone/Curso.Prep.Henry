@@ -1,0 +1,24 @@
+OBJETOS
+Los objetos son colecciones de propiedades con una palabra clave y un valor. 
+Su sintaxis es -> 
+                    let nombreObjeto = {
+                        propiedad1: valor1,
+                        propiedadN: valorN,
+                        metodo: function(){},
+                        array: [1,2,3,4,5]
+                    }
+Un objeto puede guardar todo tipo de datos (numeros, strings, funciones, etc)
+Cada propiedad es considerada una clave para acceder a el valor de un objeto. Para acceder tenemos dos Metodos
+El braket notation -> nombreObjeto[propiedad]
+Y el Dot notation -> nombreObjeto.propiedad 
+Ambas son utiles pero hay que tener en cuenta que el "dot notation" es literal por lo cual no acepta 
+variables a las cuales les haya sido asignadas una propiedad.
+
+Las funciones detro de los objetos se conocen como Metodos y funcionan igual que fuera de un objeto
+
+BUCLES FOR...IN
+Estos bucles nos permiten iterar dentro del objeto a traves de cada propiedad
+sintaxis -> for (let propiedad in nombreObjeto){
+                console.log(propiedad)
+                console.log(nombreObjeto[propiedad])
+            }
