@@ -1,0 +1,6 @@
+PROTOTYPE 
+El prototype sirve para instanciar los metodos en una clase determinada y de esta 
+forma poder usarlo en los objetos hijos. 
+
+_CONSTRUCTORS_
+Los constructores es un metodo para iniciar un objeto a partir de una clase y acepta diferentes argumentos.
