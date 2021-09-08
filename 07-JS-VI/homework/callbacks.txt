@@ -1,0 +1,16 @@
+CALLBACK 
+Es la capacidad de las funciones de tener como argumento a otra funcion. Como convencion se usa "cb" como 
+nombre del argumento. 
+Por ejemplo: 
+        function decirHola (usuario){
+            return "Hola " + usuario
+        }
+        function decirChau (usuario){
+            return "Chau " + usuario
+        }        
+       function saludar (usuario,cb){
+            return cb(usuario)
+        } // toma como parametro una funcion cualquiera representada por cb que tome como parametro usuario
+
+        saludar("Pedro", decirChau) -> en el llamado a la funcion se pone en el parametro cb la funcion que quiero usar.
+        
